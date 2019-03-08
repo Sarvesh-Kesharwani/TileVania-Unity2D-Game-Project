@@ -84,7 +84,7 @@ public class Player : MonoBehaviour
 
     private void Die()
     {
-        if (capsulecollider2d.IsTouchingLayers(LayerMask.GetMask("Enemy")))
+        if (capsulecollider2d.IsTouchingLayers(LayerMask.GetMask("Enemy" , "Hazards")))
         {
             IsAlive = false;
             animator.SetTrigger("Die");
