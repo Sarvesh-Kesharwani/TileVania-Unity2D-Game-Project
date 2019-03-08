@@ -107,6 +107,7 @@
         </e>
         <e p="Scripts" t="Include">
           <e p="Enemy_Movement.cs" t="Include" />
+          <e p="LevelExit.cs" t="Include" />
           <e p="Player.cs" t="Include" />
         </e>
         <e p="Standard Assets" t="Include">
